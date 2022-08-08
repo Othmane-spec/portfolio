@@ -1,0 +1,59 @@
+/* Header */
+
+.header-wraper {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/joshua-aragon-FGXqbqbGt5o-unsplash.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 1;
+}
+
+.main-info h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-main-offer {
+  border: 1px solid #2ecc71;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 2rem;
+  padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+  color: #fff;
+  margin: 2rem;
+}
+.btn-main-offer:hover {
+  color: white;
+  background-color: #2ecc71;
+  transition: 0.2s ease-in-out;
+}
+
+/* typed */
+
+.typed-text {
+  font-size: 2rem;
+  color: #2ecc71;
+}
+
+/* particle js */
+#tsparticles {
+  position: absolute;
+  height: 80vh;
+  width: 90vw;
+  z-index: 1;
+}
